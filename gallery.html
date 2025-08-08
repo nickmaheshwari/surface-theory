@@ -1,119 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <title>Inspirations Gallery | Surface Theory</title>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Inspirations Gallery | Surface Theory</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Inspirations Gallery - Surface Theory LLC</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <style>
-      body {
-        background: #faf9f6;
-      }
-      .gallery-header {
-        text-align: center;
-        margin-top: 2em;
-        margin-bottom: 1em;
-      }
-      .gallery-header h1 {
-        font-family: inherit;
-        font-size: 2.5em;
-        font-weight: 700;
-        margin-bottom: 0.4em;
-        letter-spacing: 0.07em;
-      }
-      .gallery-header p {
-        font-size: 1.2em;
-        color: #666;
-      }
-      .gallery-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-        gap: 2em;
-        padding: 2em;
-        max-width: 1200px;
-        margin: 0 auto;
-      }
-      .gallery-item {
-        background: #fff;
-        border-radius: 1em;
-        box-shadow: 0 2px 16px rgba(0,0,0,0.07);
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
-        transition: box-shadow 0.2s;
-      }
-      .gallery-item:hover {
-        box-shadow: 0 6px 32px rgba(0,0,0,0.12);
-      }
-      .gallery-item img {
-        width: 100%;
-        height: 260px;
-        object-fit: cover;
-        display: block;
-      }
-      .gallery-caption {
-        padding: 1em;
-        font-size: 1.08em;
-        color: #444;
-        text-align: center;
-      }
-      @media (max-width: 600px) {
-        .gallery-header h1 {
-          font-size: 1.7em;
-        }
-        .gallery-item img {
-          height: 180px;
-        }
-        .gallery-grid {
-          gap: 1em;
-          padding: 1em;
-        }
-      }
-    </style>
+    <link rel="shortcut icon" href="images/logo.png" >
   </head>
   <body>
-    <div class="gallery-header">
+    <header id="header" class="alt">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Surface Theory Logo" style="height: 2.75em; vertical-align: middle;" />
+      </a>
       <h1>Inspirations Gallery</h1>
-      <p>Venetian Plaster Walls & Finishes – Elevate Your Space</p>
-    </div>
-    <div class="gallery-grid">
-      <div class="gallery-item">
-        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Venetian Plaster Wall 1">
-        <div class="gallery-caption">Soft beige Venetian plaster with gentle light reflection</div>
-      </div>
-      <div class="gallery-item">
-        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=800&q=80" alt="Venetian Plaster Wall 2">
-        <div class="gallery-caption">Warm-toned textured plaster in a modern living room</div>
-      </div>
-      <div class="gallery-item">
-        <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=800&q=80" alt="Venetian Plaster Wall 3">
-        <div class="gallery-caption">Classic grey Venetian finish in a minimalist space</div>
-      </div>
-      <div class="gallery-item">
-        <img src="https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?auto=format&fit=crop&w=800&q=80" alt="Venetian Plaster Wall 4">
-        <div class="gallery-caption">Subtle white plaster, timeless and bright</div>
-      </div>
-      <div class="gallery-item">
-        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80" alt="Venetian Plaster Wall 5">
-        <div class="gallery-caption">Earthy ochre Venetian plaster in a cozy nook</div>
-      </div>
-      <div class="gallery-item">
-        <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=800&q=80" alt="Venetian Plaster Wall 6">
-        <div class="gallery-caption">Elegant troweled finish with natural light highlights</div>
-      </div>
-    </div>
-  </body>
-</html>  </head>
-  <body>
-    <div class="gallery-header">
-      <h1>Inspirations Gallery</h1>
-      <p>Venetian Plaster Walls & Finishes – Elevate Your Space</p>
-    </div>
-    <div class="gallery-grid">    </div>
+    </header>
+    <main>
+      <section>
+        <h2>Gallery</h2>
+        <div class="gallery" style="display: flex; flex-wrap: wrap; gap: 20px;">
+          <img src="images/pic08.jpg" alt="Inspiration 1" style="max-width:300px;width:100%;border-radius:10px;">
+          <img src="images/pic09.jpg" alt="Inspiration 2" style="max-width:300px;width:100%;border-radius:10px;">
+          <img src="images/pic10.jpg" alt="Inspiration 3" style="max-width:300px;width:100%;border-radius:10px;">
+          <!-- Add more images as desired -->
+        </div>
+      </section>
+      <br>
+      <a href="index.html" class="button">Back to Home</a>
+    </main>
   </body>
 </html>
